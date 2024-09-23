@@ -1,0 +1,27 @@
+/* Global Styles */
+body {
+    margin: 0;
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    color: #333;
+}
+
+/* Header */
+header {
+    position: fixed;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.9);
+}
+
+/* Hero Section */
+#hero {
+    height: 100vh;
+    background: url('../images/hero-placeholder.jpg') center/cover no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    /* Adjust styles for smaller screens */
+}
